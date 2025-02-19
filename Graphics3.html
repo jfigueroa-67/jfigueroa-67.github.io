@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> Diffferent techniques incorporating CSS with HTML </head>
+<title> SDV HTML-CSS</title>
+
+<style>
+    .scroll p {
+	transform: translatex(100%);
+	animation: scroll 5x linear infinate;
+	}
+	
+	@keyframes scroll{
+	0% (transform: transleX(100%);)
+	100% (transform: transleX(-100%);)
+	}
+	
+	.scroll2 p {
+	transform: translatex(-100%);}
+	animation: scroll2 5x linear infinate;}
+	}
+	
+	@keyframes scroll2{
+	0% (transform: transleX(-100%);}
+	100% (transform: transleX(100%);}
+	}
+</style>
+
+
+<body>
+
+    <h2> Scrolling Text </h2>
+    <div class='scroll'>
+    <p style='color:blue;'> Let's move it!! </p>
+	<p style='color:red;'> How about you?</p>
+	</div>
+	
+	<div class='scroll2'>
+	<p style='color:blue;'> Let's move the other way!! </p>
+	</div>
+	

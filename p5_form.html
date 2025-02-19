@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> my contact form. </title>
+</head>
+<meta charset='utf-8'>
+<meta names="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<nav style='background-color:yellow;text-align:center; font-weight:bold;'>
+<a href='p1_aboutme.html'> About me </a> &nbsp &nbsp 
+<a href='b2.html'> Hobbies </a> &nbsp &nbsp 
+<a href='E3.html'> Portfolio </a> &nbsp &nbsp 
+<a href='p4 favorites.html'> My Favorites </a> &nbsp &nbsp 
+<a href='p5_form.html'>contact me</a> &nbsp &nbsp 
+</nav>
+<h1> my contact form </h1>
+<h2 style ='text-align: center';> this is a way to contact me </h2>
+
+<form>
+    <label> First Name: <input type='text' placeholder=' Jhon'>  </label>      <br>  <br>
+	<label> Last Name: <input type='text' placeholder=' Smith'>  </label>
+	<p> <b> Best Way of contact </b> </p>
+	<label> What do you prefer? </label> &nbsp &nbsp &nbsp
+	
+	<select>  
+	        <option> Phone Call </option>
+			<option> Video Call </option>
+			<option> Email </option>
+			<option> Text Message </option>
+			<option> Inperson Meeting <option>
+		    </select>
+			        
+			<br><br><br>
+			
+			
+			<fieldset>
+			    <legend> Which office is closest to you? (choose one) </legend>
+				<input type= 'radio'>
+				    <label> Chicago - Northside </label>
+					<input type='radio'>
+				<label> Chicago - Southside </label>
+				<input type='radio'>
+				<label> Chicago - Westside </label>
+				<input type='radio'>
+				<label> Chicago - Uptown </label>
+				</fieldset> <br>  <br>
+				
+				<label> Date of Visit: </label>
+			<input type='date'>         <br>  <br>	
+			
+				<label> Time of Appointment: </label>
+			<input type='time'>         <br>  <br>	
+			
+			<label> Attach your Buisness Plan/Resume: </label>
+			<br> <br> <input type='file'> <br> <br>
+			
+			<!-- INput a number -->
+			<lBEL> how Long do you want to meet for: </label>
+			<input type='number' min='1' max='45'> minutes <br> <br>
+			
+			<!-- input a color type -->
+			<label> select your favorite color swag: </label>
+			<input type ='color'> <br> <br>
+			
+			<!-- Make two labels to get phone number and email -->
+			
+			<!-- Emial input -->
+			<label> Enter your email address: </label>
+			<input type='email' placeholder='jhonsmith@gmail.com'> <br> <br>
+
+            <!-- Phone number -->
+			<label> Enter your contact number: </label>
+            <input type='tel' placeholder='123,123,1234' pattern=
+			'[0-9]{3},[0-9]{3},[0-9]{4}' required> &nbsp &nbsp &nbsp
+
+         <select>  
+	        <option> Cell </option>
+			<option> Home </option>
+			<option> Work </option>
+		 </select> <br> <br>
+		 
+		 <!-- Creating a submit & Reset button -->
+		 <input type='submit' value='Submit'> &nbsp &nbsp &nbsp
+		 <input type='reset' value='Reset'>
+		 
+		 
+			</form>
+</body>			
+</html>			

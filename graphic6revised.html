@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head> Different techniques incorporating CSS with HTML </head>
+<title> ADV HTML-CSS </title>
+
+<body>
+<h1> Animation </h1>
+<!--Circle #2 -->
+<h3> Circle </h3>
+<p> Let's move the circle -  An animation lets an element gradually change from one style to another.</p>
+
+<svg width='400' height='400'>
+<g>
+<circle cx='100' cy='100' r='50' stroke='red' fill='yellow'> </circle>
+
+<animateMotion path='M 0 0 V 0 H 200 Z' dur='0.4s' repeatCount='500' direction="down" />
+</g>
+<!--Circle #1 -->
+
+
+
+<g>
+<circle cx='100' cy='100' r='50' stroke='red' fill='yellow'> </circle>
+
+<animateMotion path='M 0 0 V 0 H 200 Z' dur='0.1s' repeatCount='500' direction="up"/>
+</g>
+</svg>
+<hr>
+<!-- -->
+<h2> Moving shape in a square path </h2>
+<svg width='1500' height='1500'>
+<g>
+<rect width='70' height='30' fill='blue' stroke='yellow' stroke-width='2'/>
+<animateMotion path='M 10 10 H 330 V 200 H 0 Z' dur='1s' repeatCount='30' />
+<!-- Starting point, How far should the object go Horizontally, How long should it go vertically, where is the end point-->
+
+</g>
+</svg>
+
+<!-- Solar system-->
+<h1> Hellooooooooo </h1>
+<svg width='2000' height='2000'>
+<g>
+<circle cx='20' cy='20' r='12' stroke='red' fill='orange'> </circle>
+<animateMotion path='M 40 40 H 400 V 300 H 10 Z' dur='2s' repeatCount='30' />
+<!-- Starting point, How far should the object go Horizontally, How long should it go vertically, where is the end point-->
+
+</g>
+<g>
+<circle cx='30' cy='30' r='15' stroke='black' fill='blue'> </circle>
+<animateMotion path='M 0 0 H 400 V 300 H 0 Z' dur='5s' repeatCount='30' />
+<!-- Starting point, How far should the object go Horizontally, How long should it go vertically, where is the end point-->
+
+</g>
+<g>
+<circle cx='30' cy='30' r='15' stroke='red' fill='yellow'> </circle>
+<animateMotion path='M 150 150 H 200 V 100 H 300 Z' dur='16s' repeatCount='30' />
+<!-- Starting point, How far should the object go Horizontally, How long should it go vertically, where is the end point-->
+
+</g>
+</svg>
+
+</body>
+</html>
